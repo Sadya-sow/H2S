@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    padding: 0.3px;
+    margin: 0%;
+    font-family: "Noto Sans", sans-serif;
+}
+nav{
+    display: flex;
+    z-index: 1000;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center ;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    max-width: 100%;
+}
+nav .Portfy{
+    display: flex;
+   align-items: center;
+}
+nav .Portfy img{
+       width: 80px;
+       height: 80px;
+       border-radius: 50%;
+       position: relative;
+       left: 2vh;
+}
+nav .Portfy h2{
+    font-size: 20px;
+    margin-left: 3%;
+    position: relative;
+    left: 2vh;
+}
+nav ul{
+    display: flex;
+   list-style: none;
+   
+}
+nav ul li{
+    margin-left: 30px;
+    position: relative;
+    right: 7vh;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    
+    
+}
+nav ul li:hover{
+    border-bottom-color: rgb(10, 10, 10);
+}
+.pagecontente{
+    margin:4%;
+}
+ .pagecontente header{
+    max-width: 60%;
+}
+.pagecontente header h1{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8vh;
+}
+.pagecontente header img{
+    width: 160vh;
+    height:auto;
+    
+    position: sticky;
+    top: 0pt;
+    
+   
+    
+}
+.pagecontente header P{
+    line-height: 20px;
+    color: rgb(63, 60, 60);
+    font-size: 15px;
+}
+.pagecontente header button{
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+    width: 8vh;
+    border-bottom: 1px solid white;
+}
+.pagecontente header button:hover{
+    border-bottom-color:rgb(22, 21, 21) ;
+
+}
+.projets-section {
+    margin-top: 6%;
+    
+}
+.Projets-section h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vh;
+    text-transform: uppercase;
+    
+}
+.Projets-section .projets{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.Projets-section .projets .projet{
+    max-width: 195px;
+}
+.projet{
+    margin-right: 28px;
+    
+}
+.Projets-section .projets .projet h4{
+    margin: 0%;
+    
+    
+    
+}
+.description{
+    font-size: 10px;
+    
+}
+.date{
+    font-size: 13px;
+    color: rgb(92, 91, 91);
+    justify-content: space-around;
+
+}
+fieldset{
+    width: 30%;
+    height: 70%;
+    background-color: rgb(247, 247, 249);
+}
+button{
+    margin-left:50vh;
+    background-color: rgb(16, 16, 186);
+    border-radius: 2px;
+    box-shadow: 1px;
+    position: relative;
+    bottom: 9vh;
+    width: 15vh;
+    height: 5vh;
+}
+.icone{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    bottom: 4vh;
+
+}
+footer{
+    background-color: rgb(11, 11, 86);
+    height: 30PX;
+}
+.para{
+    color: white;
+}
+.text{
+    position: relative;
+    text-align: center;
+    color:rgb(11, 11, 86); ;
+}
+
